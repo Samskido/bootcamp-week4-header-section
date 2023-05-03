@@ -1,0 +1,184 @@
+@font-face{
+    font-family: Just-sans;
+    src: url("/JUST\ Sans\ Regular.otf");
+}
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+/*-------------------ENTER EMAIL AND SUBSCRIBE SECTIONN*/
+.mail-div {
+    display: flex;
+    justify-content: space-around;
+    width: 660px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+  
+   
+  }
+  .mail-div  input {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 5px;
+    width: 450px;
+    height: 64px;
+    margin-left: 60px;
+    border-radius: 20px;
+  
+  }
+  .mail-div button {
+    padding: 25px 60px  10px;
+   position: absolute;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 490px;
+    margin-top: 1px;
+    width:170px;
+    height: 64px;
+    font-size: 17px;
+    font-weight: 400;
+   
+  }
+  ::-webkit-input-placeholder{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5%;
+  }
+
+  /*------------------------NAVIGATION DIVS-----------------------------*/
+
+.left-nav{
+    display: flex;
+    gap: 40px;
+}
+.nav-text{
+   display: flex;
+   margin-left: 100px;
+   margin-top: 30px;
+   font-family: Just-sans;
+   font-size: 12px;
+   margin-bottom: 9%;
+}
+.nav-text a{
+    text-decoration: none;
+    color:black;
+}
+.right-text{
+    display: flex;
+   margin-left: auto;
+   gap: 50px;
+   margin-right: 60px;
+ 
+}
+.sign-up {
+    background-color: black;
+    color: white;
+    padding: 15px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: -9px;
+    
+}
+/*-----------------------------SECTION 2 OF THE WEB PAGE-----------------------------------*/
+.nav2-page{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif
+
+}
+.nav-2-text h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 8%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-2-text1{
+    margin-right: 130px;
+}
+/*---------------------SECTION 3 OF THE WEB PAGE-------------------------------*/
+
+.landing-page-text{
+    display: flex;
+    gap: 70px;
+    margin-left: 90px;
+    margin-bottom: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.the-text a{
+    text-decoration: none;
+    color: grey;
+}
+.the-text h4{
+    color: black;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*-------------------------------------SECTION 4(LINE)----------------------------------*/
+.line{
+    margin-left: 88px;
+    margin-right: 60px;
+    color:solid black;
+}
+span{
+    color:rgba(128, 128, 128, 0.63);
+}
+
+
+/*--------------------------SECTION 5 OF THE WEB PAGE---------------------------*/
+.images-landing-page-text{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 4%;
+    gap:50px;
+    margin-bottom: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.images-landing-page img{
+    width:650px;
+    height: 500px;
+}
+.first-images-landing-text h1{
+    border-bottom: 3px solid black ;
+   margin-right: 300px;
+   font-size: 35px;
+   margin-bottom: 2%;
+   margin-top: 30px;
+   
+}
+.first-images-landing-text p{
+    font-size: 24px;
+    margin-bottom: 2%;
+    font-weight: 300;
+}
+.second-images-landing-text h1{
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-top: 30px;
+}
+.second-images-landing-text p{
+    font-size: 24px;
+    margin-bottom: 2%;
+    font-weight: 300;
+}
+.images-landing-page h6{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    
+}
+.images-landing-page a{
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+   
+}
+
