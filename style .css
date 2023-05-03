@@ -12,14 +12,13 @@ box-sizing: border-box;
 .mail-div {
     display: flex;
     justify-content: space-around;
-    width: 660px;
+    width: 400px;
     margin-bottom: 120px;
     margin-top: 50px;
   
    
   }
   .mail-div  input {
-    border: 1px solid black;
     outline: none;
     padding: 10px 5px;
     width: 450px;
@@ -29,7 +28,7 @@ box-sizing: border-box;
   
   }
   .mail-div button {
-    padding: 25px 60px  10px;
+    padding: 0px 0px 3px 0px;
    position: absolute;
     color: white;
     background-color: black;
@@ -37,10 +36,10 @@ box-sizing: border-box;
     border-radius: 40px;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 490px;
+    margin-left: 320px;
     margin-top: 1px;
-    width:170px;
-    height: 64px;
+    width:160px;
+    height: 63px;
     font-size: 17px;
     font-weight: 400;
    
@@ -107,7 +106,7 @@ box-sizing: border-box;
 .landing-page-text{
     display: flex;
     gap: 70px;
-    margin-left: 90px;
+    margin-left: 120px;
     margin-bottom: 1%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -136,20 +135,20 @@ span{
 /*--------------------------SECTION 5 OF THE WEB PAGE---------------------------*/
 .images-landing-page-text{
     display: flex;
-    margin-left: 80px;
+   justify-content: center;
     margin-top: 4%;
     gap:50px;
-    margin-bottom: 10%;
+    margin-bottom: 4%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 .images-landing-page img{
     width:550px;
-    height: 500px;
+    height: 400px;
 }
 .first-images-landing-text h1{
-    border-bottom: 3px solid black ;
-   margin-right: 250px;
-   font-size: 35px;
+text-decoration: underline;
+   font-size: 30px;
    margin-bottom: 2%;
    margin-top: 30px;
    
@@ -159,11 +158,8 @@ span{
     margin-bottom: 2%;
     font-weight: 300;
 }
-.second-images-landing-text img{
-    margin-right: 10px;
-}
 .second-images-landing-text h1{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 2%;
     margin-top: 30px;
 }
@@ -175,7 +171,8 @@ span{
 .images-landing-page h6{
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
-    margin-top: 60px;
+    margin-top: 40px;
+   margin-left: 15px;
     
 }
 .images-landing-page a{
